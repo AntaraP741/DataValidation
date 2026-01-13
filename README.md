@@ -133,5 +133,3 @@ All tests should pass, verifying that:
 * Only fully valid rows pass
 
 ---
-
-If you want, I can also provide a **short “How this works” section for interview use** that you can add to the README.
