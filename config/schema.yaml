@@ -1,0 +1,26 @@
+columns:
+  emp_id:
+    type: str
+    required: true
+    regex: "^EMP[0-9]{4}$"
+
+  name:
+    type: str
+    required: true
+
+  age:
+    type: int
+    min: 18
+    max: 65
+
+  email:
+    type: str
+    regex: "^[a-zA-Z0-9+_.-]+@gmail.com$"
+
+  salary:
+    type: float
+    min: 1
+
+  department:
+    type: str
+    allowed: ["HR", "IT", "SALES", "FINANCE"]

@@ -1,0 +1,4 @@
+emp_id,name,age,email,salary,department
+emp1002,Alice,17,alice@gmail.com,40000,HR
+badid,Bob@,30,bob@@mail.com,-100,SALES
+EMP1004,Chris,40,chris@gmail.com,70000,BAD

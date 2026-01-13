@@ -1,0 +1,18 @@
+project/
+│
+├── data/
+│   ├── raw_employees.csv
+│   └── cleaned_employees.csv
+│
+├── config/
+│   └── schema.yaml
+│
+├── validation/
+│   ├── schema.py
+|   ├── normalizer.py
+│   ├── rules.py
+│   └── validator.py 
+│
+├── main.py
+└── tests/
+    └── test_validator.py
